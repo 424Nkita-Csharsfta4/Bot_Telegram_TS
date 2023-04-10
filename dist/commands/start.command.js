@@ -23,14 +23,12 @@ class StartCommand extends command_class_1.Command {
                 ctx.session = {};
             }
             ctx.session.ts_like = true;
-            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь");
-            ctx.editMessageText("https://habr.com/ru/post/664960/");
-            ctx.editMessageText("https://metanit.com/web/typescript/");
-            ctx.editMessageText("https://proglib.io/p/samouchitel-dlya-nachinayushchih-kak-osvoit-typescript-s-nulya-za-30-minut-2021-03-12");
-            ctx.editMessageText("Официальная документация TypeScript - https://www.typescriptlang.org/docs/");
-            ctx.editMessageText("TypeScript Tutorial for Beginners - https://www.tutorialspoint.com/typescript/index.htm");
-            ctx.editMessageText("TypeScript Video Tutorials on YouTube - https://www.youtube.com/results?search_query=typescript+tutorial");
-            ctx.editMessageText("Мой Github https://github.com/424Nkita-Csharsfta4");
+            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь"+"https://habr.com/ru/post/664960/");
+            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь"+"https://metanit.com/web/typescript/");
+            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь"+"https://proglib.io/p/samouchitel-dlya-nachinayushchih-kak-osvoit-typescript-s-nulya-za-30-minut-2021-03-12");
+            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь"+"Официальная документация TypeScript - https://www.typescriptlang.org/docs/");
+            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь"+"TypeScript Tutorial for Beginners - https://www.tutorialspoint.com/typescript/index.htm");
+            ctx.editMessageText("Ого круто уважение 🐱‍💻 ✨ 🐱‍👤 🚬 🔥 \n Вот Инфа для изучения юзай сам тут учюсь"+"TypeScript Video Tutorials on YouTube - https://www.youtube.com/results?search_query=typescript+tutorial");
         });
         this.bot.action("ts_dislike", (ctx) => {
             if (!ctx.session) {
